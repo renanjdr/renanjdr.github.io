@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./portalx.png"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <h1>Rick and Morty Characters</h1>
+    <div id="card-container"></div>
+    <div id="form-container">
+        <form id="registration-form">
+            <div class="form-group">    
+                <label for="Name">Name: </label>
+                <input id='Name' type="text" required/>
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Gender: </label>
+                <input id="Gender" type="text"/>
+            </div>
+
+            <div class="form-group">
+                <label for="Episode">Episode: </label>
+                <input id="Episode" type="text"/>
+            </div>
+
+            <div class="form-group">
+                <input id="submit" type="submit" value="Register">
+            </div>
+
+        </form>
+    </div>
+    <div id="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Gender</td>
+                    <td>Total Episodes</td>
+                    <td>Episodes List</td>
+                    <td>Rule</td>
+                </tr>
+            </thead>
+            <tbody id="data-container">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

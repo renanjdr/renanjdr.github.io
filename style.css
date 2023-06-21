@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    background-image: url('./portal.png');
+    background-position: center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.card h3{
+    margin: 5px;
+}
+
+#table-container{
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#table-container table{
+    border: 5px green solid;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#table-container td{
+    border-left: 5px green solid;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#table-container thead {
+    border: 5px green solid;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+#form-container {
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.form-group input{
+    width: 30%;
+    display: block;
+}
+
+.form-group label{
+    width: 30%;
+    display: block;
+    margin: 5px;
+}
+
+#submit{
+    width: 10%;
+    display: block;
+    margin: 5px;
+}
